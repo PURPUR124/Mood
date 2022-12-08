@@ -24,5 +24,16 @@ if WhatBeenDoingLately == "Nothing really":
     print("Oh that's too bad, maybe you can do something fun sometime soon?")
 else:
     print("Oooh!")
+Age = input("How old are you? I'm pretty new in some aspects- I'm still being made actually! ")
+
+if int(Age) <= 7:
+    print("Oh you're young! You spell really well, keep it up!")
+elif int(Age) > 7 and int(Age) <  15:
+    print("Almost old enough to drive XD")
+elif int(Age) > 15 and int(Age) < 30:
+    print("Noice, old enough to drive!")
+elif int(Age) > 30:
+    print("Hmm, decently old")
+
 print("Well, I had fun talking to you! I hope you have a good rest of your day :)")
 
