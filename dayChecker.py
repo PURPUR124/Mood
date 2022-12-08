@@ -7,6 +7,8 @@ if HowIsDoingToday == "Bad":
     print("Oh I'm so sorry to hear that, " + Name + "! I hope it gets better!")
 elif HowIsDoingToday == "Good":
     print("That's great! I hope it stays that way " + Name + "!")
+else: 
+    print("I'm not sure what you meant by that, but ok?")
 
 
 
