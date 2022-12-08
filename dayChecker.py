@@ -20,11 +20,11 @@ elif FavFood == "Sushi":
 else:
     print("Hmm, I haven't tried that! It sounds like it could be good though!")
 
-UserAge = input("How old are you? I'm preetty young, I mean, I was just made! ")
-if UserAge == "1" or "2" or "3" or "4" or "5":
-    print("Oh! You're REALLY young! You spell really well! Keep it up!")
-elif UserAge == "6" or "7" or "8" or "9" or "10":
-    print("You're getting older! Congrats!")
-else:
-    print("You're oldddd")
+##UserAge = input("How old are you? I'm preetty young, I mean, I was just made! ")
+##if UserAge == "1" or "2" or "3" or "4" or "5":
+   ##print("Oh! You're REALLY young! You spell really well! Keep it up!")
+##elif UserAge == "6" or "7" or "8" or "9" or "10":
+    ##print("You're getting older! Congrats!")
+##else:
+    ##print("You're oldddd")
 
