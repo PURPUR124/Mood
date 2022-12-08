@@ -11,12 +11,11 @@ else:
     print("I'm not sure what you meant by that, but ok?")
 ## ughhhhh it thinks everything is pizza. TBFL
 FavFood = input("What's your favorite food? I think mine might be pizza! ")
-if FavFood == "Pizza" or "pizza":
+if FavFood == "Pizza":
     print("Oh wow we have the same favorite food, Pizza! :0")
-    print("Thats cool dontcha think??")
-elif FavFood == "Sandwiches" or "sandwiches":
+elif FavFood == "Sandwiches":
     print("I like sandwiches too! Unless they get soggy, ew.")
-elif FavFood == "Sushi" or "sushi":
+elif FavFood == "Sushi":
     print("Mmmmmm sushii. Sushi's reeeeaally good too")
 else:
     print("Hmm, I haven't tried that! It sounds like it could be good though!")
@@ -26,4 +25,6 @@ if UserAge == "1" or "2" or "3" or "4" or "5":
     print("Oh! You're REALLY young! You spell really well! Keep it up!")
 elif UserAge == "6" or "7" or "8" or "9" or "10":
     print("You're getting older! Congrats!")
+else:
+    print("You're oldddd")
 
