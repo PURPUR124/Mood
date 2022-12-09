@@ -26,6 +26,13 @@ while True:
     elif (choice == "5"):
         print ("Left the Cafe")
         break
+    elif (choice == "6"):
+        WorkForCafe = input("Oh you want to work for the cafe? (Y)es or (N)o: ")
+        if WorkForCafe == "Y":
+                break
+        if WorkForCafe == "N":
+            print("Ok!")
+
     else:
         print ("That's not on our menu, sorry!")
     print ("")
@@ -37,4 +44,31 @@ while True:
     print ("")
     print ("")
     print ("")
+    choice2 = ""
+while WorkForCafe == "Y":
+        print("Thanks for coming in today!")
+        print("You have a couple of tasks you can do today:")
+        print("1.) Wash Dishes")
+        print("2.) Prep Food")
+        print("3.) Prep Drinks")
+        print("4.) Sweep")
+        print("5.) Mop")
+        print("6.) Leave the Cafe")
+        choice2 = input("What would you like to do? ")
+
+        if choice2 == "6":
+            print("Left the Cafe")
+            break
+        elif choice2 == "1":
+            print("You washed dishes, and they SPARKLE")
+        elif choice2 == "2":
+            print("You prepped food, and it tastes AMAZING according to our customers")
+        elif choice2 == "3":
+            print("You prepped drinks, and they taste INCREDIBLE according to our customers")
+        elif choice2 == "4":
+            print("You swept, and now the floor isn't dusty!")
+        elif choice2 == "5":
+            print("You mopped, and now the floor isn't sticky!")
+        else:
+            print("That's not an option on the task list, sorry!")
 
