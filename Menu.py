@@ -9,7 +9,7 @@ while True:
     print("Our current Menu is:")
     print("1) If Else Eclair")
     print("2) Elif Latte")
-    print("3) While Loop Tea")
+    print("3) While Loop Tea (Hot or Cold)")
     print("4) Apple.py")
     print("5) Leave the Cafe")
 
