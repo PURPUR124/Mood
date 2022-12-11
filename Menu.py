@@ -2,6 +2,11 @@
 
 
 
+food = ["Apple.py","If Else Eclair"]
+drinks = ["While Loop Tea (Hot)","Elif Latte","While Loop Tea (Cold)"]
+mop = ["You mopped, and the floor's still a little sticky","You mopped, and the floor's still really sticky","You mopped, and the floor's not sticky at all anymore"]
+sweep = ["You swept, and the floor's still a little dusty","You swept, and the floor's still really dusty","You swept,and the floor's not dusty at all anymore"]
+
 print("Hello!")
 print("Welcome to the Wonderful Python Cafe!")
 choice = ""
@@ -14,15 +19,18 @@ while True:
     print("5) Leave the Cafe")
 
     choice = input("Enter your menu selection: ")
-    choice = choice.strip()
     if (choice == "1"):
         print ("Thank you for visiting the Wonderful Python Cafe, please enjoy your Else If Eclair!")
+        print("Here's our menu again incase you forgot")
     elif (choice == "2"):
         print ("Thank you for visiting the Wonderful Python Cafe, please enjoy your Elif Latte!")
+        print("Here's our menu again incase you forgot")
     elif (choice == "3"):
         print ("Thank you for visiting the Wonderful Python Cafe, please enjoy your While Loop Tea!")
+        print("Here's our menu again incase you forgot")
     elif (choice == "4"):
         print ("Thank you for visiting the Wonderful Python Cafe, please enjoy your Apple.py!")
+        print("Here's our menu again incase you forgot")
     elif (choice == "5"):
         print ("Left the Cafe")
         break
@@ -58,6 +66,9 @@ while WorkForCafe == "Y":
 
         if choice2 == "6":
             print("Left the Cafe")
+            break   
+        elif choice2 == "N":
+            print("Thank you for working for us!")
             break
         elif choice2 == "1":
             print("You washed dishes, and they SPARKLE")
