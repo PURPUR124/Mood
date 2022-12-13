@@ -32,54 +32,52 @@ while True:
         print ("Thank you for visiting the Wonderful Python Cafe, please enjoy your Apple.py!")
         print("Here's our menu again incase you forgot")
     elif (choice == "5"):
-        print ("Left the Cafe")
+        print("You left, and are now on the sidewalk of a small bustling town.")
         break
     elif (choice == "6"):
         WorkForCafe = input("Oh you want to work for the cafe? (Y)es or (N)o: ")
-        if WorkForCafe == "Y":
-                break
-        if WorkForCafe == "N":
-            print("Ok!")
+        if WorkForCafe == ('Y') or ('y'):
+            while WorkForCafe == "Y":
+                print("Thanks for coming in today!")
+                print("You have a couple of tasks you can do today:")
+                print("1.) Wash Dishes")
+                print("2.) Prep Food")
+                print("3.) Prep Drinks")
+                print("4.) Sweep")
+                print("5.) Mop")
+                print("6.) Stop Working for the Wonderful Python Cafe")
+                choice2 = input("What would you like to do? ")
 
-    else:
-        print ("That's not on our menu, sorry!")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    print ("")
-    choice2 = ""
-while WorkForCafe == "Y":
-        print("Thanks for coming in today!")
-        print("You have a couple of tasks you can do today:")
-        print("1.) Wash Dishes")
-        print("2.) Prep Food")
-        print("3.) Prep Drinks")
-        print("4.) Sweep")
-        print("5.) Mop")
-        print("6.) Leave the Cafe")
-        choice2 = input("What would you like to do? ")
-
-        if choice2 == "6":
-            print("Left the Cafe")
-            break   
-        elif choice2 == "N":
-            print("Thank you for working for us!")
-            break
-        elif choice2 == "1":
-            print("You washed dishes, and they SPARKLE")
-        elif choice2 == "2":
-            print("You prepped food, and it tastes AMAZING according to our customers")
-        elif choice2 == "3":
-            print("You prepped drinks, and they taste INCREDIBLE according to our customers")
-        elif choice2 == "4":
-            print("You swept, and now the floor isn't dusty!")
-        elif choice2 == "5":
-            print("You mopped, and now the floor isn't sticky!")
-        else:
-            print("That's not an option on the task list, sorry!")
+                if choice2 == "1":
+                    print("You washed dishes, and they SPARKLE")
+                elif choice2 == "2":
+                    print("You prepped food, and it tastes AMAZING according to our customers")
+                elif choice2 == "3":
+                    print("You prepped drinks, and they taste INCREDIBLE according to our customers")
+                elif choice2 == "4":
+                    print("You swept, and now the floor isn't dusty!")
+                elif choice2 == "5":
+                    print("You mopped, and now the floor isn't sticky!")
+                elif choice2 == "6":
+                    print("You stopped working for us!")
+                    break
+                else:
+                    print("That's not on our task list, sorry!")
+while True:
+    print("You can do two things right now")
+    print("1.) Walk down the street")
+    print("2.) Check what buisnesses there are along the street")
+    WhatToDo = input("What would you like to do?")
+    if WhatToDo == "2":
+        print("You see 4 buisnesses, and 3 homes. The buisnesses are named A, B, and C")
+        EnterBuisness = input("What buisness would you like to enter? A, B, or C?")
+        if EnterBuisness == "A":
+            print("blah")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
 
