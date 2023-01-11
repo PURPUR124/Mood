@@ -1,0 +1,85 @@
+#!/usr/local/bin/python3
+
+
+import random
+
+# Define a list of character classes
+classes = ["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
+
+# Define a dictionary of character stats
+stats = {"strength": 0, "dexterity": 0, "constitution": 0, "intelligence": 0, "wisdom": 0, "charisma": 0}
+
+# Define a function to roll for character stats
+def roll_stats():
+      for stat in stats:
+              stats[stat] = sum(sorted([random.randint(1, 6) for i in range(4)])[1:])
+
+              # Define a function to create a character
+              def create_character():
+                    # Get the character's name
+                      name = input("Enter your character's name: ")
+
+                        # Get the character's class
+                          print("Choose your character's class:")
+                            for i, character_class in enumerate(classes):
+                                    print("(", i+1, ")", character_class)
+                                      class_choice = int(input())
+                                        if class_choice < 1 or class_choice > len(classes):
+                                                print("Invalid class choice, please try again.")
+                                                    return create_character()
+                                                  character_class = classes[class_choice-1]
+
+    # Roll for the character's stats
+      roll_stats()
+
+        # Create the character dictionary
+          character = {"name": name, "class": character_class, "stats": stats}
+
+            return character
+
+        # Create the player's character
+        player = create_character()
+
+        # Print the player's character sheet
+        print("Character sheet:")
+        print("Name:", player["name"])
+        print("Class:", player["class"])
+        print("Stats:", player["stats"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

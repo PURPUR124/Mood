@@ -61,44 +61,44 @@ while True:
                 elif (choice == "6"):
                     os.system('clear')
                     WorkForCafe = input("Oh you want to work for the cafe? (Y)es or (N)o: ")
-                if WorkForCafe == ('Y') or ('y'):
-                    while WorkForCafe == "Y":
-                        os.system('clear')
-                        #print("Thanks for coming in today!")
-
-
-                        print("You have a couple of tasks you can do today:")
-                        print("1.) Wash Dishes")
-                        print("2.) Prep Food")
-                        print("3.) Prep Drinks")
-                        print("4.) Sweep")
-                        print("5.) Mop")
-                        print("6.) Stop Working for the Wonderful Python Cafe")
-                        choice2 = input("What would you like to do? ")
-
-                        if choice2 == "1":
-                            os.system('clear')
-                            print("You washed dishes, and they SPARKLE")
-                        elif choice2 == "2":
-                            os.system('clear')
-                            print("You prepped food, and it tastes AMAZING according to our customers")
-                        elif choice2 == "3":
-                            os.system('clear')
-                            print("You prepped drinks, and they taste INCREDIBLE according to our customers")
-                        elif choice2 == "4":
-                            os.system('clear')
-                            print("You swept, and now the floor isn't dusty!")
-                        elif choice2 == "5":
-                            os.system('clear')
-                            print("You mopped, and now the floor isn't sticky!")
-                        elif choice2 == "6":
-                            os.system('clear')
-                            print("You stopped working for us!")
-                            break
-                        else:
-                            os.system('clear')
-
-                            print("That's not on our task list, sorry!")
+	                    if WorkForCafe == ('Y') or ('y'):
+	                        while True:
+	                            os.system('clear')
+	                            #print("Thanks for coming in today!")
+	
+	
+	                            print("You have a couple of tasks you can do today:")
+	                            print("1.) Wash Dishes")
+	                            print("2.) Prep Food")
+	                            print("3.) Prep Drinks")
+	                            print("4.) Sweep")
+	                            print("5.) Mop")
+	                            print("6.) Stop Working for the Wonderful Python Cafe")
+	                            choice2 = input("What would you like to do? ")
+	
+	                            if choice2 == "1":
+	                                os.system('clear')
+	                                print("You washed dishes, and they SPARKLE")
+	                            elif choice2 == "2":
+	                                os.system('clear')
+	                                print("You prepped food, and it tastes AMAZING according to our customers")
+	                            elif choice2 == "3":
+	                                os.system('clear')
+	                                print("You prepped drinks, and they taste INCREDIBLE according to our customers")
+	                            elif choice2 == "4":
+	                                os.system('clear')
+	                                print("You swept, and now the floor isn't dusty!")
+	                            elif choice2 == "5":
+	                                os.system('clear')
+	                                print("You mopped, and now the floor isn't sticky!")
+	                            elif choice2 == "6":
+	                                os.system('clear')
+	                                print("You stopped working for us!")
+	                                break
+	                            else:
+	                                os.system('clear')
+	
+	                                print("That's not on our task list, sorry!")
         #elif EnterBuisness == "B":
             #print("blah blah")
         #elif EnterBuisness == "C":
