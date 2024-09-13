@@ -1,6 +1,5 @@
 #!/usr/local/bin/python3
 import os
-# PLEASE DO NOT STEAL MY GAME, IT'S NOT FINISHED AND I'M VERY PROUD OF IT
 
 while True:
     print("1.) Walk down the street")
