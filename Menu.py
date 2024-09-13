@@ -3,7 +3,7 @@ import os
 
 while True:
     print("1.) Walk down the street")
-    print("2.) Check what buisnesses there are along the street")
+    print("2.) Check what businesses there are along the street")
     WhatToDo = input("What would you like to do? ")
     if WhatToDo == "1":
         print("You walk down the street a bit, but when you look around nothing has changed, almost like you haven't moved at all...")
